@@ -1,5 +1,3 @@
-# Tema1_321CC_Preda_Victor-Andrei
-
 ## IPv4 Implementation
 
 For the implementation of the IPv4 protocol, I first check if the Ethernet type is `0x0800` (IPv4). If it is, I retrieve the IP header located at the address of the received packet plus the size of the Ethernet structure. 
